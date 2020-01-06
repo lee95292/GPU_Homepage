@@ -7,7 +7,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Menu />
+        <Menu theme={this.props.theme} />
         <Route exact path="/" component={Home} />
         <Route exact path="/articles" component={Articles} />
       </div>
