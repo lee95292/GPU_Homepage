@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { Heading } from "util/style/commonStyle";
+import { H1 } from "@blueprintjs/core";
 
 export class Project extends Component {
   render() {
     return (
       <div>
-        <Heading>Projects & Awards</Heading>
+        <H1>Projects & Awards</H1>
         Unity PUBG project..
       </div>
     );

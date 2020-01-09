@@ -6,8 +6,7 @@ export class About extends Component {
       <div>
         About GPU.. <br />
         GPU : Game Programming in University is..
-        <br />
-        <img src="#" />
+        <br /> <img src="#" />
       </div>
     );
   }
