@@ -16,14 +16,5 @@ export const Device = {
   laptop: `(min-width: ${size.laptop})`,
   laptopL: `(min-width: ${size.laptopL})`,
   desktop: `(min-width: ${size.desktop})`,
-  desktopL: `(min-width: ${size.desktop})`,
-
-  Max_mobileS: `(max-width: ${size.mobileS})`,
-  Max_mobileM: `(max-width: ${size.mobileM})`,
-  Max_mobileL: `(max-width: ${size.mobileL})`,
-  Max_tablet: `(max-width: ${size.tablet})`,
-  Max_laptop: `(max-width: ${size.laptop})`,
-  Max_laptopL: `(max-width: ${size.laptopL})`,
-  Max_desktop: `(max-width: ${size.desktop})`,
-  Max_desktopL: `(max-width: ${size.desktop})`
+  desktopL: `(min-width: ${size.desktop})`
 };

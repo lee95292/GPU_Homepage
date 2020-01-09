@@ -1,11 +1,27 @@
 import styled from "styled-components";
 import { Device } from "util/style/standard";
-
-const Heading = styled.h1`
+export const CommonStyle = {
+  Heading: `
   font-size: 1.3rem;
   text-align: center;
-  @media ${Device.laptop} {
+  @media ${Device.tablet} {
     font-size: 4rem;
   }
-`;
-export { Heading };
+  `,
+  MenuLink: `
+  list-style: none;
+  font-weight: 600;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:link {
+    color: black;
+  }
+  `
+};

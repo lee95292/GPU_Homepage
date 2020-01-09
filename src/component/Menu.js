@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Device } from "util/style/standard";
+import SubMenu from "./SubMenu";
+import { CommonStyle } from "util/style/commonStyle";
 const MenuContainer = styled.ol`
   display: flex;
   justify-content: center;
@@ -13,23 +15,9 @@ const MenuContainer = styled.ol`
 `;
 
 const MenuItem = styled.li`
-  list-style: none;
   font-size: 1.2rem;
   padding: 0.5rem 0.7rem 1rem 0.7rem;
-  font-weight: 600;
-  a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: white;
-  }
-  a:hover {
-    color: white;
-  }
-  a:link {
-    color: white;
-  }
-
+  ${CommonStyle.MenuLink}
   &:nth-child(1) {
     flex: 7;
   }
@@ -65,6 +53,7 @@ const Menu = () => {
           </NavLink>
         </MenuItem>
       </MenuContainer>
+      <SubMenu />
     </div>
   );
 };

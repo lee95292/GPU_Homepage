@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import { Heading } from "util/style/commonStyle";
+import { CommonStyle } from "util/style/commonStyle";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  ${CommonStyle.Heading}
+`;
 
 export class Project extends Component {
   render() {
     return (
       <div>
-        <Heading>Projects & Awards</Heading>
+        <Title id="project">Projects & Awards</Title>
         Unity PUBG project..
       </div>
     );
