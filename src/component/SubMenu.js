@@ -7,9 +7,7 @@ const TopBar = styled.ul`
   display: flex;
   justify-content: left;
   margin: 0 0 0 0;
-  padding-left: 28rem;
   @media ${Device.tablet} {
-    padding-left: 3rem;
   }
 `;
 

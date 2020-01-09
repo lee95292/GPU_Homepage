@@ -16,7 +16,8 @@ import styled from "styled-components";
 import { Device } from "util/style/standard";
 
 const navBar = {
-  height: "5rem"
+  height: "5rem",
+  padding: "3rem 3rem 3rem 2rem"
 };
 const navGroup = {
   height: "100%",
