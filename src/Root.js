@@ -5,8 +5,6 @@ import { styled, createGlobalStyle } from "styled-components";
 import { Device } from "util/style/standard";
 
 const RootContainer = createGlobalStyle`
-  background-color:black;
-  height:1000px;
 `;
 
 const Root = () => {

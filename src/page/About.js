@@ -12,7 +12,11 @@ export class About extends Component {
       <div>
         <Title>About GPU..</Title>
         GPU : Game Programming in University is..
+<<<<<<< HEAD
         <img src="#" />
+=======
+        <br /> <img src="#" />
+>>>>>>> bp
       </div>
     );
   }
