@@ -12,12 +12,9 @@ import {
 } from "@blueprintjs/core";
 import SubMenu from "./SubMenu";
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
-import { Device } from "util/style/standard";
-const navBar = {
-  height: "5rem",
-  padding: "3rem 3rem 3rem 2rem"
-};
+import styles from "./MenuStyle.module.css";
+import classNames from "classnames";
+
 const navGroup = {
   height: "100%",
   width: "100%"
@@ -27,13 +24,13 @@ const buttonStyle = {
   fontSize: "2rem",
   margin: "1rem 1rem 1rem 1rem"
 };
-
+console.log(styles);
 export class Menu extends React.Component {
   render() {
     return (
       <div>
-        <Navbar style={navBar}>
-          <NavbarGroup align={Alignment.LEFT} style={navGroup}>
+        <Navbar className={styles.menu}>
+          <NavbarGroup align={Alignment.LEFT} className={styles.menuGroup}>
             <NavbarHeading>GPU</NavbarHeading>
             <NavbarDivider />
             <NavLink exact to="/" isActive={this.activatedLink}>

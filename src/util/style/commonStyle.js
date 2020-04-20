@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import { Device } from "util/style/standard";
-<<<<<<< HEAD
-=======
 
->>>>>>> bp
 export const CommonStyle = {
   Heading: `
   font-size: 1.3rem;
